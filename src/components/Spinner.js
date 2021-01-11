@@ -44,6 +44,7 @@ export default function Spinner() {
   const [spinnerOn, setSpinnerOn] = useState(spinnerOn)
   const toggleSpinner = () => {
     /* STEP 4 */
+    setSpinnerOn(!spinnerOn)
   };
 
   return (
